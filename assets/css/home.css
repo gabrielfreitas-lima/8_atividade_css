@@ -19,9 +19,11 @@
 .container .h-subtitle h1 {
     font-size: 48px;
 }
-.container .h-subtitle #h-color {
-    font-size: 32px;
+.container .h-subtitle .cor-azul{
     color: #00E0FF;
+}
+.container .h-subtitle .cor-azul #h-profissao {
+    font-size: 32px;
 }
 
 /* SOBRE */
@@ -49,7 +51,6 @@
 .container .h-subtitle .h-itens .item {
     display: flex;
     flex-direction: row;
-    width: 100%;
     min-height: 220px;
 }
 .container .h-subtitle .h-itens .item .work {
@@ -69,7 +70,6 @@
 }
 .container .h-subtitle .h-itens .item .description h2 {
     margin-bottom: 10px;
-    color: #00E0FF;
 }
 
 /* EDUCAÇAO */
@@ -83,9 +83,6 @@
 }
 .container .h-subtitle .item .title h2 {
     font-size: 22px;
-}
-.container .h-subtitle .item .title span {
-    color: #00E0FF;
 }
 
 /* HABILIDADES */
@@ -141,9 +138,6 @@
 }
 .container .h-subtitle .inf h2 {
     font-size: 18px;
-}
-.container .h-subtitle .inf p {
-    color: #00E0FF;
 }
 footer {
     width: 100%;
