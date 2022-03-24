@@ -1,0 +1,173 @@
+.container {
+    width: 90%;
+    max-width: 2024px;
+    min-height: 100%;
+    margin: auto;
+}
+
+/* NOME */
+
+.container .h-subtitle {
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 100px;
+}
+.container .h-subtitle #h-name {
+    margin-top: 5%;
+}
+.container .h-subtitle h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+.container .h-subtitle #h-color {
+    font-size: 32px;
+    text-transform: uppercase;
+    color: #00E0FF;
+}
+
+/* Sobre */
+
+.container .h-subtitle .h-title-itens {
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 25px;
+}
+.container .h-subtitle .h-title-itens h2 {
+    margin-top: 5%;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.container .h-subtitle .paragraf {
+    font-style: normal;
+    text-align: justify;
+}
+
+/* Experiência */
+
+.container .h-subtitle .h-itens {
+    width: 100%;
+    min-height: 100px;
+}
+.container .h-subtitle .h-itens .item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 220px;
+}
+.container .h-subtitle .h-itens .item .work {
+    min-width: 25%;
+    max-width: 25%;
+    min-height: 100px;
+}
+.container .h-subtitle .h-itens .item .work h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.container .h-subtitle .h-itens .item .work p {
+    font-size: 22px;
+}
+.container .h-subtitle .h-itens .item .description {
+    width: 75%;
+    min-height: 100px;
+}
+.container .h-subtitle .h-itens .item .description h2 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #00E0FF;
+}
+.container .h-subtitle .h-itens .item .description p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Educação */
+
+.container .h-subtitle .item {
+    width: 100%;
+    min-height: 220px;
+}
+.container .h-subtitle .item .title {
+    margin-bottom: 10px;
+}
+.container .h-subtitle .item .title h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+.container .h-subtitle .item .title span {
+    font-size: 22px;
+    color: #00E0FF;
+}
+.container .h-subtitle .item p {
+    text-align: justify;
+}
+
+/* Habilidades */
+
+.container .h-subtitle .habilidade {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+}
+.container .h-subtitle .habilidade .title {
+    min-width: 150px;
+}
+.container .h-subtitle .habilidade h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.container .h-subtitle .habilidade .icon {
+    position: relative;
+    width: 200px;
+    height: 18px;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    border-radius: 6px;
+    background: transparent;
+}
+/* Percentuais */
+
+.container .h-subtitle .habilidade .icon .percentual{
+    height: 100%;
+    border-radius: 6px;
+    background-color: #00E0FF;   
+}
+.container .h-subtitle .habilidade .icon #percentual-10 {
+    width: 110px;
+}
+.container .h-subtitle .habilidade .icon #percentual-50 {
+    width: 150px; 
+}
+.container .h-subtitle .habilidade .icon #percentual-80 {
+    width: 180px;  
+}
+.container .h-subtitle .habilidade .icon #percentual-100 {
+    width: 200px; 
+}
+
+/* Contato */
+
+.container .h-subtitle .h-title-contato {
+    border-bottom: 2px solid #00E0FF;
+    margin-bottom: 50px;
+}
+
+.container .h-subtitle .inf {
+    width: 100%;
+    min-height: 80px;
+}
+.container .h-subtitle .inf h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.container .h-subtitle .inf p {
+    font-size: 18px;
+    color: #00E0FF;
+}
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: #00E0FF;
+}
